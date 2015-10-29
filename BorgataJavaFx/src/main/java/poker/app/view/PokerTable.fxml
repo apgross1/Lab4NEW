@@ -71,10 +71,10 @@
                               <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                            </rowConstraints>
                            <children>
-                              <TextField fx:id="txtP1Name1" />
-                              <HBox fx:id="h1P11" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" />
-                              <ToggleButton fx:id="btnP1SitLeave1" mnemonicParsing="false" onAction="#handleP1SitLeave" styleClass="togglebutton" text="Sit" GridPane.rowIndex="1" />
-                              <Label fx:id="lblP1Name1" prefHeight="21.0" prefWidth="92.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <TextField />
+                              <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" />
+                              <ToggleButton mnemonicParsing="false" styleClass="togglebutton" text="Sit" GridPane.rowIndex="1" />
+                              <Label prefHeight="21.0" prefWidth="92.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                            </children>
                         </GridPane>
                      </children>
@@ -98,9 +98,9 @@
                            </rowConstraints>
                            <children>
                               <TextField fx:id="txtP1Name11" />
-                              <HBox fx:id="h1P111" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" />
-                              <ToggleButton fx:id="btnP1SitLeave11" mnemonicParsing="false" onAction="#handleP1SitLeave" styleClass="togglebutton" text="Sit" GridPane.rowIndex="1" />
-                              <Label fx:id="lblP1Name11" prefHeight="21.0" prefWidth="92.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" />
+                              <ToggleButton mnemonicParsing="false" styleClass="togglebutton" text="Sit" GridPane.rowIndex="1" />
+                              <Label prefHeight="21.0" prefWidth="92.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                            </children>
                         </GridPane>
                      </children>
@@ -123,13 +123,14 @@
                               <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                            </rowConstraints>
                            <children>
-                              <HBox fx:id="h1P1111" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1">
+                              <HBox prefHeight="100.0" prefWidth="200.0" translateX="-0.0" GridPane.columnIndex="1">
                                  <children>
-                                    <TextField fx:id="txtP1Name111" prefHeight="37.0" prefWidth="87.0" translateX="10.0" />
+                                    <TextField prefHeight="37.0" prefWidth="87.0" translateX="10.0" />
                                  </children>
                               </HBox>
-                              <ToggleButton fx:id="btnP1SitLeave111" mnemonicParsing="false" onAction="#handleP1SitLeave" styleClass="togglebutton" text="Sit" translateX="35.0" translateY="-10.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                              <Label fx:id="lblP1Name111" prefHeight="21.0" prefWidth="92.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <ToggleButton mnemonicParsing="false" styleClass="togglebutton" text="Sit" translateX="35.0" translateY="-10.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <Label prefHeight="21.0" prefWidth="92.0" translateX="-70.0" translateY="-5.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <HBox prefHeight="100.0" prefWidth="200.0" />
                            </children>
                         </GridPane>
                      </children>
