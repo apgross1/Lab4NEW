@@ -38,12 +38,15 @@
          <center>
             <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="342.0" translateY="-10.0" BorderPane.alignment="CENTER">
                <children>
-                  <HBox layoutX="276.0" layoutY="236.0" prefHeight="200.0" prefWidth="341.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <HBox fx:id="HboxCommonArea" layoutX="276.0" layoutY="236.0" prefHeight="200.0" prefWidth="341.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <children>
                         <SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="173.0" prefWidth="338.0" styleClass="background">
                           <items>
-                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" styleClass="background" translateY="30.0" />
-                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" styleClass="background">
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" styleClass="background" SplitPane.resizableWithParent="false">
+                                 <children>
+                                    <HBox fx:id="HboxCommunityCards" prefHeight="100.0" prefWidth="339.0" />
+                                 </children></AnchorPane>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" styleClass="background" SplitPane.resizableWithParent="false">
                                  <children>
                                     <Button fx:id="btnPlay" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#handlePlay" text="Play" />
                                     <Button fx:id="btnDraw" layoutX="89.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleDraw" text="Draw" />
@@ -97,7 +100,7 @@
                               <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                            </rowConstraints>
                            <children>
-                              <TextField fx:id="txtP1Name11" />
+                              <TextField />
                               <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" />
                               <ToggleButton mnemonicParsing="false" styleClass="togglebutton" text="Sit" GridPane.rowIndex="1" />
                               <Label prefHeight="21.0" prefWidth="92.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />

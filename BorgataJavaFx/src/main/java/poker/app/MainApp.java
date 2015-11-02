@@ -40,7 +40,7 @@ public class MainApp extends Application {
 	private Table tbl;
 	
 	private int iGameType;
-	
+	  
 	@Override
 	public void start(Stage primaryStage) {
 
